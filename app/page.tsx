@@ -1,9 +1,10 @@
+import AppLayout from "@/components/layout/AppLayout";
 import Map from "@/components/map/Map";
 
 export default function Home() {
   return (
-    <main className="h-screen w-screen">
+    <AppLayout>
       <Map />
-    </main>
+    </AppLayout>
   );
 }
